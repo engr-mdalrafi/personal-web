@@ -4,10 +4,17 @@
 @theme {
     --font-title:"Montserrat", sans-serif;
     --font-SubTitle: "Poppins", sans-serif;
+    --color-primary: #C4CFDE;
+    --color-secedary: #1A1D23;
+    --Color-liner: #1E2024;
+    --color-brand: #FF014F;
 }
 
 @utility container{
     margin: auto;
 }
 
+body{
+    background: #212428;
+}
 

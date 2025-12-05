@@ -1,14 +1,15 @@
 import React from 'react'
+import Button from './Button'
 
 const Navber = () => {
   return (
     <>
-      <nav className='bg-amber-300'>
+      <nav className=''>
         <div className="container">
-          <div className='py-11 flex justify-between items-center'>
+          <div className='py-11 flex justify-between items-center font-title text-sm uppercase text-primary'>
             <div><a href="#"><h2>Al Rafi</h2></a></div>
             <div>
-              <ul className='flex gap-3'>
+              <ul className='flex gap-7'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Fatures</a></li>
                 <li><a href="#">Portfolio</a></li>
@@ -18,6 +19,7 @@ const Navber = () => {
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contract</a></li>
               </ul>
+              <Button/>
             </div>
           </div>
         </div>
