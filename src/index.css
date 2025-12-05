@@ -6,4 +6,8 @@
     --font-SubTitle: "Poppins", sans-serif;
 }
 
+@utility container{
+    margin: auto;
+}
+
 
