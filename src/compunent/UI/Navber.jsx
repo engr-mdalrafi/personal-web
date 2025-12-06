@@ -8,7 +8,7 @@ const Navber = () => {
         <div className="container">
           <div className='py-11 flex justify-between items-center font-title text-sm uppercase text-primary'>
             <div><a href="#"><h2>Al Rafi</h2></a></div>
-            <div>
+            <div className='flex items-center gap-7'>
               <ul className='flex gap-7'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Fatures</a></li>

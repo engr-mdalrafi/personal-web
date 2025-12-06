@@ -1,9 +1,10 @@
 import React from 'react'
+import Banner from '../compunent/Home/Banner'
 
 const Home = () => {
   return (
     <>
-      <div className='w-full h-screen flex justify-center items-center bg-green-300 text-9xl '>Home</div>
+      <Banner/>
     </>
   )
 }
