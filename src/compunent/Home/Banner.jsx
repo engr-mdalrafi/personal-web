@@ -12,7 +12,7 @@ const Banner = () => {
                     <h2 className='text-5xl text-white font-title font-bold'>a fornt end developer</h2>
                     <p className='pt-6 pb-36 text-base font-SubTitle text-primary'>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
                 </div>
-                <div className='w-[509px] h-[400px] bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] relative'>
+                <div className='w-[509px] h-[400px] bg-secedary rounded-md shadow-[#262a2e] shadow-[-10px_-10px_19px] relative'>
                     <div className='w-full absolute bottom-0'><img src="Portfolio-Images.png" alt="Portfolio-Images" /></div>
                 </div>
             </div>
