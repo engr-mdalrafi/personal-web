@@ -1,6 +1,7 @@
 import React from 'react'
-import { FaInstagram } from 'react-icons/fa'
+import { FaFigma, FaInstagram, FaReact } from 'react-icons/fa'
 import { FiFacebook } from 'react-icons/fi'
+import { IoLogoJavascript } from 'react-icons/io'
 import { LuLinkedin } from 'react-icons/lu'
 
 const Banner = () => {
@@ -14,26 +15,26 @@ const Banner = () => {
                     <h1 className='py-5 text-6xl text-white font-title font-bold'>Hi, I’m <span className='text-brand'>Md. Al Rafi</span></h1>
                     <h2 className='text-5xl text-white font-title font-bold'>a fornt end developer</h2>
                     <p className='pt-6 pb-36 text-base font-SubTitle text-primary'>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
-                    <div className='flex justify-between'>
+                    <div className='flex gap-40'>
                       <div>
-                        <p>find with me</p>
+                        <p className='pb-5 text-base text-primary font-SubTitle'>Find With Me</p>
                         <div className='flex gap-8'>
-                          <div className='py-5 px-6 text-2xl bg-secedary text-primary'><FiFacebook /></div>
-                          <div className='py-5 px-6 text-2xl bg-secedary text-primary'><FaInstagram /></div>
-                          <div className='py-5 px-6 text-2xl bg-secedary text-primary'><LuLinkedin /></div>
+                          <div className='py-5 px-6 text-2xl rounded-md bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] text-primary'><FiFacebook /></div>
+                          <div className='py-5 px-6 text-2xl rounded-md bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] text-primary'><FaInstagram /></div>
+                          <div className='py-5 px-6 text-2xl rounded-md bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] text-primary'><LuLinkedin /></div>
                         </div>
                       </div>
                       <div>
-                        <p>find with me</p>
+                        <p className='pb-5 text-base text-primary font-SubTitle'>Best Skill On</p>
                         <div className='flex gap-8'>
-                          <div className='py-5 px-6 text-2xl bg-secedary text-primary'><FiFacebook /></div>
-                          <div className='py-5 px-6 text-2xl bg-secedary text-primary'><FiFacebook /></div>
-                          <div className='py-5 px-6 text-2xl bg-secedary text-primary'><FiFacebook /></div>
+                          <div className='py-5 px-6 text-2xl rounded-md bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] text-primary'><FaFigma /></div>
+                          <div className='py-5 px-6 text-2xl rounded-md bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] text-primary'><FaReact /></div>
+                          <div className='py-5 px-6 text-2xl rounded-md bg-secedary shadow-[#262a2e] shadow-[-10px_-10px_19px] text-primary'><IoLogoJavascript /></div>
                         </div>
                       </div>
                     </div>
                 </div>
-                <div className='w-[509px] h-[400px] bg-secedary rounded-md shadow-[#262a2e] shadow-[-10px_-10px_19px] relative'>
+                <div className='w-[509px] h-[450px] bg-secedary rounded-md shadow-[#262a2e] shadow-[-10px_-10px_19px] relative'>
                     <div className='w-full absolute bottom-0'><img src="Portfolio-Images.png" alt="Portfolio-Images" /></div>
                 </div>
             </div>
