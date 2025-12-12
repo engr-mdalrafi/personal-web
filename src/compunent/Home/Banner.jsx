@@ -7,6 +7,7 @@ import FeaturesCard from '../Features/FeaturesCard'
 import { BsBoxSeam } from 'react-icons/bs'
 import { PiChatTextThin } from 'react-icons/pi'
 import { IoBookOutline } from 'react-icons/io5'
+import PortfolioCard from '../Portfolio/PortfolioCard'
 
 const Banner = () => {
   return (
@@ -42,7 +43,9 @@ const Banner = () => {
                     <div className='w-full absolute bottom-0'><img src="Portfolio-Images.png" alt="Portfolio-Images" /></div>
                 </div>
               </div>
-
+{/* ===================================================
+            Features Section Start
+=================================================== */}
             <div className='pb-24'>
               <p className='text-base text-brand uppercase'>Features</p>
               <h2 className='pt-3.5 pb-12 text-5xl text-primary font-bold font-title'>What I Do</h2>
@@ -79,6 +82,38 @@ const Banner = () => {
                 </FeaturesCard>
               </div>
             </div>
+{/* ===================================================
+            Features Section End
+=================================================== */}
+
+{/* ===================================================
+            Portfolio Section Start
+=================================================== */}
+<PortfolioCard/>
+{/* ===================================================
+            Portfolio Section End
+=================================================== */}
+{/* ===================================================
+            Features Section Start
+=================================================== */}
+
+{/* ===================================================
+            Features Section End
+=================================================== */}
+{/* ===================================================
+            Features Section Start
+=================================================== */}
+
+{/* ===================================================
+            Features Section End
+=================================================== */}
+{/* ===================================================
+            Features Section Start
+=================================================== */}
+
+{/* ===================================================
+            Features Section End
+=================================================== */}
 
 
 
