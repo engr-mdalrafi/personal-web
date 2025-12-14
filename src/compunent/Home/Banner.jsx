@@ -89,7 +89,9 @@ const Banner = () => {
 {/* ===================================================
             Portfolio Section Start
 =================================================== */}
-<PortfolioCard/>
+<div>
+  <PortfolioCard pUrl={protfolio-img.png} pTitle="The services provide for design" pSubtitle="Development" rating ="600"/>
+</div>
 {/* ===================================================
             Portfolio Section End
 =================================================== */}
